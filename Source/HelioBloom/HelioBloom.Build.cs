@@ -8,32 +8,36 @@ public class HelioBloom : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] 
-		{
-			"Core", 
-			"CoreUObject", 
-			"Engine", 
-			"InputCore", 
-			"EnhancedInput", 
-			"GeometryCollectionEngine", 
-			"DataflowEngine", 
-			"DataflowCore", 
-			"GeometryCollectionNodes", 
-			"FieldSystemEngine",
-			"Niagara", 
-			"CommonUI", 
-			"CommonInput",
-			"Slate", 
-			"SlateCore", 
-			"UMG"
+		PublicDependencyModuleNames.AddRange(new string[] {
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"EnhancedInput",
+			"AIModule",
+			"StateTreeModule",
+			"GameplayStateTreeModule",
+			"UMG",
+			"Slate"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
-		PublicIncludePaths.AddRange(new string[] 
-		{
+		PublicIncludePaths.AddRange(new string[] {
 			"HelioBloom",
-			
+			"HelioBloom/Variant_Platforming",
+			"HelioBloom/Variant_Platforming/Animation",
+			"HelioBloom/Variant_Combat",
+			"HelioBloom/Variant_Combat/AI",
+			"HelioBloom/Variant_Combat/Animation",
+			"HelioBloom/Variant_Combat/Gameplay",
+			"HelioBloom/Variant_Combat/Interfaces",
+			"HelioBloom/Variant_Combat/UI",
+			"HelioBloom/Variant_SideScrolling",
+			"HelioBloom/Variant_SideScrolling/AI",
+			"HelioBloom/Variant_SideScrolling/Gameplay",
+			"HelioBloom/Variant_SideScrolling/Interfaces",
+			"HelioBloom/Variant_SideScrolling/UI"
 		});
 
 		// Uncomment if you are using Slate UI

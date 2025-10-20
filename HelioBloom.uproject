@@ -24,22 +24,6 @@
 			]
 		},
 		{
-			"Name": "Bridge",
-			"Enabled": false
-		},
-		{
-			"Name": "MegascansPlugin",
-			"Enabled": false
-		},
-		{
-			"Name": "FMODStudio",
-			"Enabled": false
-		},
-		{
-			"Name": "FMODStudioNiagara",
-			"Enabled": false
-		},
-		{
 			"Name": "StateTree",
 			"Enabled": true
 		},
