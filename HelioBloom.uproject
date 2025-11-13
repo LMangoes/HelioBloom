@@ -32,6 +32,10 @@
 			"Enabled": false
 		},
 		{
+			"Name" : "MegascansPlugin",
+			"Enabled" : false
+		},
+		{
 			"Name": "StateTree",
 			"Enabled": true
 		},
