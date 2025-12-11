@@ -32,8 +32,8 @@
 			"Enabled": false
 		},
 		{
-			"Name" : "MegascansPlugin",
-			"Enabled" : false
+			"Name": "MegascansPlugin",
+			"Enabled": false
 		},
 		{
 			"Name": "StateTree",
@@ -148,6 +148,10 @@
 		},
 		{
 			"Name": "PCGInstancedActorsInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "Locomotor",
 			"Enabled": true
 		}
 	]
