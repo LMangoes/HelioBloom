@@ -153,6 +153,10 @@
 		{
 			"Name": "Locomotor",
 			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
 		}
 	]
 }
